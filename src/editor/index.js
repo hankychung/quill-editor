@@ -10,6 +10,7 @@ class ImageBlot extends BlockEmbed {
     let node = super.create()
     node.innerText = `${text} `
     node.style = 'color: red'
+    node.setAttribute('type', '@')
     return node
   }
 
